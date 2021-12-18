@@ -124,3 +124,7 @@ You can learn more about docker-compose command line interface from [Compose com
 ## Postman Collection
 
 The `postman-collection/deno-blog.postman_collection.json` file can be imported inside [Postman](https://www.postman.com/) for testing out the endpoints.
+
+## Dockerize Application 
+
+The Application is dockerized by using [Dockerfile](https://github.com/mehdijebali/deno-blog/blob/master/Dockerfile). we create a new image called [mehdijebali/my-deno-app](https://hub.docker.com/r/mehdijebali/my-deno-app)
